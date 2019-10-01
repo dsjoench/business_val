@@ -1,8 +1,8 @@
 # Investment portfolio/Risk management (Ongoing project)
 
-This portfolio,combining with a Excel-based portfolio, aim to build an algorithmic trading by analyzing investment portfolio and time series data to optimize overall return. Later I will post a video on each steps I did.
+This portfolio,combining with a Excel-based model, aim to analyze investment portfolio and time-series data to optimize overall return. Later I will post a video on each steps I took.
 
-The codes shown in this respository built in python, along with some object oriented programming to automate time series analysis procedure.
+The codes shown in this respository are built in python, with some object-oriented programming to automate time series analysis procedure.
 
 1. Import data/ manupulate data so that users can flexibly adjust parameter such as stock index, data range to scope in financial data.
 2. Data  visualization on moving average, standard deviation,etc
@@ -11,10 +11,12 @@ The codes shown in this respository built in python, along with some object orie
 
 
 
-First, you need to decide on the stocks/ funds you want to invest in. Second, you need to decide the timeframe of the holidng period. Is it a short-term trading or a long-term investment. Here are the breakdown of the files:
+First, you need to decide on which stocks or funds you want to invest in. Second, you need to decide the holdng period. Is it a short-term trading or a long-term investment? 
 
-Financial Analysis: I utilize BeautifulSoup to extract financial data from Yahoo Finance. Since They update the web format once in a while, I have built two different versions to have a clear automated importing and cleaning process.
+Here are the breakdown:
 
-Time series: Here you can adjust the parameter of stock symbol and date range to compare with the SP500 and NASDAQ performance. It plots the stock price movement,moving averages, daily violatility, compared with the market performance. It shows correlation between the stock and the market. I also did hypothesis testing to show the strength of the movements.
+Financial Analysis: I utilized the package BeautifulSoup to extract financial data from Yahoo Finance. Since the website update the layout from time to time, I have built two different versions to tackle this problem so that we can have a cleaner automatic importing and cleaning process.
 
-algorithmic trading: Here I implemented a few trading strategies combining with predicted stock price in a portfolio, optimized by regression model, and other models yet to be implemented.
+Time-series analysis: Users can adjust the parameter of individual stock symbol and date range to compare with the SP500 and NASDAQ's performance. The scripts will plot the stock price movement,moving average, daily violatility, etc, comparing with the market performance. It shows correlation between the stock price and the market movements. Hypothesis testing is also used to show the strength of their relationships.
+
+Algorithmic trading: Trading strategies were implemented by predicting future stock price. The optimized parameters are optimized by the regression model, and other models yet to be implemented.
