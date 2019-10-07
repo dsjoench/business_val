@@ -19,4 +19,4 @@ Financial Analysis: I utilized the package BeautifulSoup to extract financial da
 
 Time-series analysis: Users can adjust the parameter of individual stock symbol and date range to compare with the SP500 and NASDAQ's performance. The scripts will plot the stock price movement,moving average, daily violatility, etc, comparing with the market performance. It shows correlation between the stock price and the market movements. Hypothesis testing is also used to show the strength of their relationships.
 
-Algorithmic trading: Trading strategies were implemented by predicting future stock price. The optimized parameters are optimized by the regression model, and other models yet to be implemented.
+Trading strategy: Trading strategies were implemented by predicting future stock price. The optimized parameters are optimized by the regression model, and other models yet to be implemented.
