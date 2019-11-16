@@ -1,6 +1,6 @@
 # Investment portfolio/Risk management (Ongoing project)
 
-This portfolio,combining with a Excel-based model, aim to analyze investment decision and time-series data to optimize  return and risk. Later I will post a video on each steps I took.
+This portfolio aims to improve an Excel-based model that analyzes investment decision and time-series data to optimize return and risk. 
 
 The codes shown in this respository are built in python, with some object-oriented programming to automate time series analysis procedure.
 
